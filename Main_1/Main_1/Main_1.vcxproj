@@ -76,7 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\BSU\OpSys\lab1\VectorLib\VectorLib;D:\BSU\OpSys\lab1\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\VectorLib\VectorLib; ..\..\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -85,7 +85,7 @@
       <AdditionalDependencies>VectorLib.lib;NumbersLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /d "D:\BSU\OpSys\lab1\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
+      <Command>xcopy /y /d "..\..\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -96,7 +96,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\BSU\OpSys\lab1\VectorLib\VectorLib;D:\BSU\OpSys\lab1\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\VectorLib\VectorLib; ..\..\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -107,7 +107,7 @@
       <AdditionalDependencies>VectorLib.lib;NumbersLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /d "D:\BSU\OpSys\lab1\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
+      <Command>xcopy /y /d "..\..\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\BSU\OpSys\lab1\VectorLib\VectorLib;D:\BSU\OpSys\lab1\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\VectorLib\VectorLib; ..\..\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -125,7 +125,7 @@
       <AdditionalDependencies>VectorLib.lib;NumbersLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /d "D:\BSU\OpSys\lab1\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
+      <Command>xcopy /y /d "..\..\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -136,7 +136,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\BSU\OpSys\lab1\VectorLib\VectorLib;D:\BSU\OpSys\lab1\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\VectorLib\VectorLib; ..\..\slnNumbersLib\NumbersLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,7 +147,7 @@
       <AdditionalDependencies>VectorLib.lib;NumbersLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /d "D:\BSU\OpSys\lab1\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
+      <Command>xcopy /y /d "..\..\VectorLib\$(IntDir)\VectorLib.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
