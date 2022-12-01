@@ -1,0 +1,3 @@
+﻿  Pipes.cpp
+D:\BSU\OpSys\Pipes (wind)\Pipes\Pipes\Pipes.cpp(94,46): warning C4244: аргумент: преобразование "float" в "DWORD", возможна потеря данных
+  Pipes.vcxproj -> D:\BSU\OpSys\Pipes (wind)\Pipes\x64\Debug\Pipes.exe
